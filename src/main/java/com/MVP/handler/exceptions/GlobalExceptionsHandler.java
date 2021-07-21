@@ -35,7 +35,7 @@ public class GlobalExceptionsHandler {
 	private ResponseEntity<ResponseMessage> exception(String message, int statusCode, HttpStatus status,
 			WebRequest request) {
 		ResponseMessage errorMsg = new ResponseMessage(statusCode, status, message, new Date());
-		return new ResponseEntity<>(errorMsg, HttpStatus.BAD_REQUEST);
+		return new ResponseEntity<>(errorMsg, status);
 	}
 
 	/* Handles the {Invalid Data (Input Mismatch, Input required)} */
