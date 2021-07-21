@@ -31,7 +31,7 @@ Output : "Returns the newly created training center details"
 }
 ```
 
-` Example: {
+`Example:` `{
   "centerName" : "Flex Club",
   "contactPhone" : 9814161728,
   "address" : {
