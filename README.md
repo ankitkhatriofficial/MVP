@@ -72,9 +72,9 @@ Output : "Returns the matched records based on filter value provided"
 ```
 
 - Steps:
--- Import the project as a exisiting maven project
--- In com.MVP package, run `SenpiperBackendAssignmentApplication.java` file
--- The project will start on localhost as default port 6000
+- Import the project as a exisiting maven project
+- In com.MVP package, run `SenpiperBackendAssignmentApplication.java` file
+- The project will start on localhost as default port 6000
 
 # HighLights of the Assignment
 - Full Spring `MVC` (Model, View, Controller) pattern used 
