@@ -51,7 +51,7 @@ Output : "Returns all the records of training centers"
 ```
 
 ```sh
-3) HttpRequest (GET)
+3) HttpRequest (POST)
 End point: http://localhost:6000/training-centers/filter
 Parameters(Request Body): {
         Any field available in TrainingCenter model
