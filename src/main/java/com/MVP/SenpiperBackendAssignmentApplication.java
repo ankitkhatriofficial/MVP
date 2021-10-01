@@ -9,11 +9,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * 
  */
 @SpringBootApplication
-public class SenpiperBackendAssignmentApplication {
+public class MVPApis {
 
 	/* Main Function to start the Application */
 	public static void main(String[] args) {
-		SpringApplication.run(SenpiperBackendAssignmentApplication.class, args);
+		SpringApplication.run(MVPApis.class, args);
 	}
 
 }
