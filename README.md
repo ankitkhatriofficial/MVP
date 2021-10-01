@@ -1,4 +1,4 @@
-# Senpiper Backend Assignment
+# MVP Apis
 ## _@Author 'Ankit Khatri'_
 
 #### Detailed Documentation of the Assignment
