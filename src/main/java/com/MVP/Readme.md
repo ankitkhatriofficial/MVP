@@ -1,7 +1,7 @@
-# Senpiper Backend Assignment
+# MVP Apis
 ## _@Author 'Ankit Khatri'_
 
-#### Detailed Documentation of the Assignment
+#### Detailed Documentation of the Apis
 
 - There are three Apis developed.
 - 1) For saving Details of trainig center to the database
@@ -31,7 +31,7 @@ Output : "Returns the newly created training center details"
 }
 ```
 
-` Example: {
+`Example:` `{
   "centerName" : "Flex Club",
   "contactPhone" : 9814161728,
   "address" : {
@@ -51,7 +51,7 @@ Output : "Returns all the records of training centers"
 ```
 
 ```sh
-3) HttpRequest (GET)
+3) HttpRequest (POST)
 End point: http://localhost:6000/training-centers/filter
 Parameters(Request Body): {
         Any field available in TrainingCenter model
@@ -72,9 +72,9 @@ Output : "Returns the matched records based on filter value provided"
 ```
 
 - Steps:
--- Import the project as a exisiting maven project
--- In com.MVP package, run `SenpiperBackendAssignmentApplication.java` file
--- The project will start on localhost as default port 6000
+- Import the project as a exisiting maven project
+- In com.MVP package, run `SenpiperBackendAssignmentApplication.java` file
+- The project will start on localhost as default port 6000
 
 # HighLights of the Assignment
 - Full Spring `MVC` (Model, View, Controller) pattern used 
