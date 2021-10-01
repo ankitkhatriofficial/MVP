@@ -1,7 +1,7 @@
 # MVP Apis
 ## _@Author 'Ankit Khatri'_
 
-#### Detailed Documentation of the Assignment
+#### Detailed Documentation of the Apis
 
 - There are three Apis developed.
 - 1) For saving Details of trainig center to the database
